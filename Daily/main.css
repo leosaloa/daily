@@ -1,0 +1,103 @@
+body{
+    font-family: Helvetica;
+}
+
+.title{
+    font-size: 30px;
+    color: #FF5C5C;
+    font-weight: bold;
+    padding: 48px 55px;
+}
+
+.container{
+    padding: 9px 55px;
+}
+
+.tsign{
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p{
+    color: #989898;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+
+form{ 
+    color: #000;
+    font-size: 9px;
+    font-weight: normal; 
+
+}
+
+.blc{ 
+    position: relative;
+    float: left;
+}
+
+.input{ 
+    padding-left: 10px;
+    display:block; 
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 14px;
+    height: 33.79px;
+}
+
+.email{
+    border-color: #26A7DE;
+    width: 242.3px;
+    color: #000;
+}
+
+.name{
+    border-color: #CBE6F0;
+    width: 111px;
+    margin: 0px 8px 0px 0px;
+    color: #989898;
+}
+
+.pass{
+    border-color: #CBE6F0;
+    width: 242.3px;
+}
+
+.tdo{
+padding: 5px 0px;
+}
+
+input{
+    display: none;
+}
+
+.cbox{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.cbox::before{
+    content: "";
+    width: 25px;
+    height: 25px;
+    border: solid 2px #CBE6F0;
+    border-radius: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.bot{
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #7d058d;
+    width: 252.3px;
+    height: 33.79px;
+    border-radius: 17px;
+}
+
